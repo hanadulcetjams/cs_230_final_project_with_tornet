@@ -19,7 +19,7 @@ ZENODO_INDICES = [
     ("2022", "12655719")
     ]
 
-def pull_data_from_zenodo(out_folder="")
+def pull_data_from_zenodo(out_folder=""):
     subprocess.check_call("pip3 install zenodo_get", shell=True)
     for tup in ZENODO_INDICES:
         subprocess.check_call("zenodo_get {i}".format(i = tup[1]), shell=True, 
