@@ -8,4 +8,9 @@ To do so, I'll be working to first work with the data (learn how to pull it, loa
 From there, I'll be working to both try to use YOLO and transfer learning to see if I can improve model performance with that, and also investigate whether data augmentation can help solve the class imbalance problem.
 
 For reference, the folders labeled `cs_230_` are those that I've created and where my work is taking place, whereas the other folders are originally from TorNet.
+Most of the bulk of the work (running models, testing hyperparameters, data augmentation, etc.) can be found in the `cs_230_running_tornet_cnn` folder (where the notebooks have been commented
+in order to explain what work has been done and why).
+
 Note that I have not uploaded the data here (instead, I've opted to just show the process of how it was downloaded using `zenodo_get`).
+
+
