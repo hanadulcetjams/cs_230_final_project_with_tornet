@@ -6,3 +6,7 @@ experiments/
 lightning_logs/
 tornado_baseline*
 tornet_baseline*
+runs/*
+checkpoints/*
+YOLO11-cls/*
+*.snapshot
